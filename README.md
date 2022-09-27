@@ -6,6 +6,10 @@ channel and then displays the transcript that was received on another Redis
 channel. The interface is therefore not tied to a particular STT engine, as long
 as it can communicate via Redis channels.
 
+Uses [python-sounddevice](https://python-sounddevice.readthedocs.io/en/latest/) under
+the hood for recording the audio (stumbled across the library in 
+[this post](https://realpython.com/playing-and-recording-sound-python/)).
+
 
 ## Installation
 
