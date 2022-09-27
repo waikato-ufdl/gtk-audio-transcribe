@@ -1,5 +1,11 @@
 # gtk-audio-transcribe
-Simple user interface for transcribing audio into text (STT).
+Simple user interface for transcribing audio into text (STT). 
+
+The user interface records audio, broadcasts it on a [Redis](https://redis.io/) 
+channel and then displays the transcript that was received on another Redis 
+channel. The interface is therefore not tied to a particular STT engine, as long
+as it can communicate via Redis channels.
+
 
 ## Installation
 
