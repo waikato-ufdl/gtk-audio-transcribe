@@ -17,7 +17,10 @@ virtualenv -p /usr/bin/python3 venv
 ./venv/bin/pip install "git+ssh://git@github.com/waikato-ufdl/gtk-audio-transcribe.git"
 ```
 
-## Example
+## Coqui STT Example
+
+The following example uses [Coqui STT](https://github.com/coqui-ai/STT) via 
+[Redis and docker](https://github.com/waikato-datamining/tensorflow/tree/master/coqui/stt).
 
 ### Docker
 
