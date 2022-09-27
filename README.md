@@ -21,7 +21,8 @@ virtualenv -p /usr/bin/python3 venv
 
 ### Docker
 
-Download the English tflite model into the current directory and start the Coqui container from the same directory: 
+Download the [English tflite model](https://github.com/waikato-ufdl/gtk-audio-transcribe/releases/download/v1.3.0/full.tflite) 
+into the current directory and start the Coqui container from the same directory: 
 
 ```bash
 docker run   \
